@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.tymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Coucou c'est parti !</title>
+</head>
+<body>
+Yeah
+
+<ul>
+    <li th:each="game : ${games}" th:text="${game.getName()}"></li>
+</ul>
+</body>
+</html>
